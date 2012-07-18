@@ -11,23 +11,25 @@ This is a work in progress.
 * [backbone.js](http://backbonejs.org/)
 * [chaplin](https://github.com/chaplinjs/chaplin)
 * [brunch](http://brunch.io/)
-* coffeescript
-* handlebars templates
-* stylus styles
-* jQuery
-* twitter bootstrap
-* CORS so you can run client and server on different ports during development
-* mocha and sinon for testing
+* [coffeescript](http://coffeescript.org)
+* [handlebars](http://handlebarsjs.com/)
+* [stylus](http://learnboost.github.com/stylus/)
+* [jQuery](http://jquery.com/)
+* [twitter bootstrap](http://twitter.github.com/bootstrap/)
+* [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing) so you can run client and server on different ports during development
+* [mocha](http://visionmedia.github.com/mocha/) and [sinon.js](http://sinonjs.org/)
 
 ## Getting started
 
-Run the application using `brunch w -s` and visiting http://localhost:3000
+Start the [server](https://github.com/DallanQ/familysearch-boilerplate-server)
+
+Run the app using `brunch w -s` and visiting http://localhost:3000
 
 Run the tests by starting the app and visiting http://localhost:3000/test
 or by running `brunch test`
-(if you want to run `brunch test`, you must use brunch version 1.4.x, which you can get from github)
+(if you want to run `brunch test` you must use brunch version 1.4.x, which you can get from github)
 
-Build for production using `PRODUCTION=1 brunch build`
+Build for production using `PRODUCTION=1 brunch build -m` and copying the result into the server's public directory
 
 ## License
 The MIT license.
