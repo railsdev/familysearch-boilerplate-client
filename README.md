@@ -17,7 +17,7 @@ This is a work in progress.
 * [jQuery](http://jquery.com/)
 * [twitter bootstrap](http://twitter.github.com/bootstrap/)
 * [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing) so you can run client and server on different ports during development
-* [mocha](http://visionmedia.github.com/mocha/) and [sinon.js](http://sinonjs.org/)
+* [mocha](http://mochajs.org/) and [sinon.js](http://sinonjs.org/)
 
 ## Getting started
 
